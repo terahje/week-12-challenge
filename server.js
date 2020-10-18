@@ -17,7 +17,6 @@ const db = new sqlite3.Database('./db/employee.db', err => {
     console.log('Connected to the employee database.');
   });
 
-
 // Get all employees
 app.get('/api/employee', (req, res) => {
     const sql = `SELECT * FROM employee`;
