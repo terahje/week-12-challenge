@@ -33,4 +33,4 @@ INSERT INTO manager (first_name, last_name)
 VALUES 
     ("Ashley", "Rodriquez"),
     ("John", "Doe"),
-    ("Sarah", "Lourd");
+    ("Sarah", "Lourd")

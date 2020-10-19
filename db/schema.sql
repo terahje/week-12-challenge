@@ -5,6 +5,7 @@ DROP TABLE IF EXISTS role;
 DROP TABLE IF EXISTS manager;
 
 
+
 CREATE TABLE employee (
   id INTEGER PRIMARY KEY,
   first_name VARCHAR(30) NOT NULL,
@@ -27,10 +28,6 @@ CREATE TABLE role (
   department_id INTEGER,
   CONSTRAINT fk_department FOREIGN KEY (department_id) REFERENCES department(id)
 );
-
-
-
-
 
 CREATE TABLE manager (
   id INTEGER PRIMARY KEY,
